@@ -2,17 +2,15 @@
 
 An official theme for [OJS 3.1.1+](https://pkp.sfu.ca/ojs/) designed for health science journals or any journal that wants a clean, modern appearance.
 
-Current version: healthSciences v1.0.5
+This theme was commissioned and is maintained by the [Public Knowledge Project](https://pkp.sfu.ca/). For all non-technical questions, please visit the [PKP Forum](https://forum.pkp.sfu.ca/).
 
-This theme was commissioned and is maintained by the [Public Knowledge Project](https://pkp.sfu.ca/). For all non-technical questions, please visit the [PKP Forum](https://forum.pkp.sfu.ca/). 
-
-## Demonstration 
+## Demonstration
 
 You can see a demonstration of this theme on the [PKP website](https://demo.publicknowledgeproject.org/ojs3/demo/index.php/health-sciences).
 
 ## Installation
 
-You can install the latest stable release by going to the `Settings` > `Websites` > `Plugins` > `Plugin Gallery` page in your Open Journal Systems website.
+This theme can be installed through the **Plugin Gallery** in Open Journal Systems. If it's not available in the plugin gallery, you may need to update Open Journal Systems to a compatible version.
 
 If you'd like to use unreleased packages, you can clone this repository or follow these steps:
 
@@ -21,7 +19,7 @@ If you'd like to use unreleased packages, you can clone this repository or follo
 3. Login to the admin area of your OJS website. Browse to the `Settings` > `Website` > `Plugins` page and enable the Health Sciences theme.
 4. Browse to the `Settings` > `Website` > `Appearance` page and select Health Sciences from the theme option and save your change.
 
-## Settings 
+## Settings
 
 **Theme Colour** | This theme allows the personalisation of the theme’s main colour. The default colour is a bright turquoise. If you wish to select your own palette (in `Settings` >  `Website`), and for optimal results, we recommend selecting bold and vivid tones.
 
@@ -84,12 +82,15 @@ This theme was designed by Sophy Ouch (@sssoz) and built by Nate Wright (@NateWr
 We welcome code contributions from the community at https://github.com/pkp/healthSciences/. Non-technical questions should be directed to the community forum at https://forum.pkp.sfu.ca/.
 
 ## Feedback
-Suggestions for improving this guide can be made to support@publicknowledgeproject.org. 
+Suggestions for improving this guide can be made to support@publicknowledgeproject.org.
 
 ## License
-This theme is released under the GPL license. 
+This theme is released under the GPL license.
 
 ## Changelog
+**healthSciences v1.0.6** (2020-02-25)
+* Update: Make theme compatible with OJS v3.2
+
 **healthSciences v1.0.5** (2019-11-15)
 * Add: New localizations (fr_FR); special thanks to contributors!
 * Add: Announcements are added for the journal landing page
@@ -117,7 +118,7 @@ This theme is released under the GPL license.
 * Add: Support for right to left scripts (#122)
 * Fix: Removing redundant code from PDF JS viewer's template (#111)
 * Fix: Modals with authors Biography are now working correctly (#115)
-* Fix: Issue links on the archive page are clickable in all possible cases of user inputs to issue form (#120) 
+* Fix: Issue links on the archive page are clickable in all possible cases of user inputs to issue form (#120)
 * Fix: Security issues
 
 **healthSciences v1.0.2**  (2018-07-30)
@@ -130,7 +131,7 @@ This theme is released under the GPL license.
 * Add: DOI is shown for each article on issue TOC page if provided (#94)
 * Fix: Proper page header aligning for small screens (#87)
 * Fix: Unique ID for modal login forms
-* Fix: Minor theme-wide restyling 
+* Fix: Minor theme-wide restyling
 
 **healthSciences v1.0.1**  (2018-06-18)
 * Add: Support for OJS 3.1.1-1
